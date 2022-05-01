@@ -27,7 +27,7 @@ FILE2=/home/shofi/tugas/tugas4/sampling_data/data/weather_2015.csv
 if [[ -f $FILE1 && -f $FILE2 ]]; then
 	echo "both file exist"
 	csvstack $FILE1 $FILE2 > /home/shofi/tugas/tugas4/sampling_data/data/weather.csv
-	 rm -rf $FILE
+	rm -rf $FILE
 else
 	echo "File weather_2014.csv dan weather_2015.csv belum ada di folder data"
 
