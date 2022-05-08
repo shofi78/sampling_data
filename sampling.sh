@@ -2,7 +2,7 @@
 
 # Mendownload file excel dan menyimpan ke folder data
 
-wget -P data https://github.com/labusiam/dataset/raw/main/weather_data.xlsx
+wget -P ./data https://github.com/labusiam/dataset/raw/main/weather_data.xlsx
 
 
 # Convert setiap sheet pada file weather_data.xlsx ke dalam file csv
